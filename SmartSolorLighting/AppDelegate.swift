@@ -21,11 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // go to main page
 //        let appBottomNavigationController = AppBottomNavigationController(viewControllers: [nav,nav2])
 //        window!.rootViewController = appBottomNavigationController
-//
+
         // go to login
-        window?.rootViewController = UINavigationController(rootViewController: Login2ViewController())
-        
-        
+         window?.rootViewController = UINavigationController(rootViewController: Login2ViewController())
+//
+//
 
 //        let sc = SearchViewController()
 //        let nav3 = AppNavigationController(rootViewController:sc)

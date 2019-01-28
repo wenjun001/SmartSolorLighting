@@ -22,11 +22,10 @@ class Login2ViewController: UIViewController , UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.navigationController?.isNavigationBarHidden = true
         self.view.backgroundColor = UIColor(red: 1/255, green: 170/255, blue: 235/255,
                                             alpha: 1)
-        
-   
+        assignbackground()
         let formViewHeight = 90
       
         self.formView = UIView()
@@ -40,7 +39,7 @@ class Login2ViewController: UIViewController , UITextFieldDelegate {
             make.left.equalTo(15)
             make.right.equalTo(-15)
          
-            self.topConstraint = make.centerY.equalTo(self.view).constraint
+            self.topConstraint = make.centerY.equalTo(self.view).offset(-formViewHeight).constraint
             make.height.equalTo(formViewHeight)
         }
         
@@ -134,6 +133,19 @@ class Login2ViewController: UIViewController , UITextFieldDelegate {
             make.centerX.equalTo(self.view)
             make.height.equalTo(44)
         }
+    }
+    
+    func assignbackground(){
+        let background = UIImage(named: "bg")
+        
+        var imageview : UIImageView!
+        imageview = UIImageView(frame: view.bounds)
+        imageview.contentMode =  UIView.ContentMode.scaleAspectFill
+        imageview.clipsToBounds = true
+        imageview.image = background
+        imageview.center = view.center
+        view.addSubview(imageview)
+        self.view.sendSubviewToBack(imageview)
     }
     
 
