@@ -123,17 +123,33 @@ class Login2ViewController: UIViewController , UITextFieldDelegate {
         }
         
       
-        self.titleLabel = UILabel()
-        self.titleLabel.text = "smart solar trailer"
-        self.titleLabel.textColor = UIColor.white
-        self.titleLabel.font = UIFont.systemFont(ofSize: 36)
-        self.view.addSubview(self.titleLabel)
-        self.titleLabel.snp.makeConstraints { (make) -> Void in
-            make.bottom.equalTo(self.formView.snp.top).offset(-20)
+//        self.titleLabel = UILabel()
+//        self.titleLabel.text = "smart solar trailer"
+//        self.titleLabel.textColor = UIColor.white
+//        self.titleLabel.font = UIFont.systemFont(ofSize: 36)
+//        self.view.addSubview(self.titleLabel)
+//        self.titleLabel.snp.makeConstraints { (make) -> Void in
+//            make.bottom.equalTo(self.formView.snp.top).offset(-20)
+//            make.centerX.equalTo(self.view)
+//            make.height.equalTo(44)
+//        }
+       
+        let imageName = "logo.png"
+        let image = UIImage(named: imageName)
+        let imageView = UIImageView(image: image!)
+        imageView.contentMode =  UIView.ContentMode.scaleAspectFill
+         self.view.addSubview(imageView)
+        imageView.snp.makeConstraints { (make) -> Void in
+            make.bottom.equalTo(self.formView.snp.top).offset(-40)
             make.centerX.equalTo(self.view)
             make.height.equalTo(44)
         }
+        
+
+            
     }
+    
+
     
     func assignbackground(){
         let background = UIImage(named: "bg")
