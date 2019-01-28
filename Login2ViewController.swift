@@ -202,6 +202,10 @@ class Login2ViewController: UIViewController , UITextFieldDelegate {
         // go to main if login successful
         
         print("login")
+        // dismiss this view controller
+        self.dismiss(animated: true) {
+            // handle logic here if necessary
+        }
     }
 }
 
