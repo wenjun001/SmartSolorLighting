@@ -9,21 +9,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func applicationDidFinishLaunching(_ application: UIApplication) {
-         GMSServices.provideAPIKey("AIzaSyAtNWBgw3qWtThAYqyCdT1dIflApdzBhfg")
+        GMSServices.provideAPIKey("AIzaSyAtNWBgw3qWtThAYqyCdT1dIflApdzBhfg")
         window = UIWindow(frame: Screen.bounds)
         
-         let mvc = MapViewController()
+        let mvc = MapViewController()
         let nav = AppNavigationController(rootViewController:mvc)
         
         let vc = ListViewController()
         let nav2 = AppNavigationController(rootViewController:vc)
         
         // go to main page
-//        let appBottomNavigationController = AppBottomNavigationController(viewControllers: [nav,nav2])
-//        window!.rootViewController = appBottomNavigationController
-
-        // go to login
-         window?.rootViewController = UINavigationController(rootViewController: Login2ViewController())
+        let appBottomNavigationController = AppBottomNavigationController(viewControllers: [nav,nav2])
+        window!.rootViewController = appBottomNavigationController
 //
 //
 
