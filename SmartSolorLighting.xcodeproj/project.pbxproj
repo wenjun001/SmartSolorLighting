@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4670670621FE7F830091EED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670670521FE7F830091EED5 /* AppDelegate.swift */; };
+		4670670D21FE7F850091EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4670670C21FE7F850091EED5 /* Assets.xcassets */; };
+		4670671021FE7F850091EED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4670670E21FE7F850091EED5 /* LaunchScreen.storyboard */; };
+		4670672121FE81590091EED5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671721FE81580091EED5 /* LoginViewController.swift */; };
+		4670672221FE81590091EED5 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671821FE81580091EED5 /* AppNavigationController.swift */; };
+		4670672321FE81590091EED5 /* Login2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671921FE81580091EED5 /* Login2ViewController.swift */; };
+		4670672421FE81590091EED5 /* AppBottomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671A21FE81580091EED5 /* AppBottomNavigationController.swift */; };
+		4670672521FE81590091EED5 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671B21FE81580091EED5 /* RemindersViewController.swift */; };
+		4670672621FE81590091EED5 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671C21FE81580091EED5 /* ListViewController.swift */; };
+		4670672821FE81590091EED5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671E21FE81580091EED5 /* MapViewController.swift */; };
+		4670672921FE81590091EED5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671F21FE81590091EED5 /* SearchViewController.swift */; };
+		4670672A21FE81590091EED5 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670672021FE81590091EED5 /* DemoViewController.swift */; };
+		A75C063BF44D1B6FDDD7CD61 /* Pods_SmartSolorLighting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B508CC1FA86B2F71DAF8C8 /* Pods_SmartSolorLighting.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4670670221FE7F830091EED5 /* SmartSolorLighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSolorLighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4670670521FE7F830091EED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4670670C21FE7F850091EED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4670670F21FE7F850091EED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4670671121FE7F850091EED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4670671721FE81580091EED5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		4670671821FE81580091EED5 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = SOURCE_ROOT; };
+		4670671921FE81580091EED5 /* Login2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login2ViewController.swift; sourceTree = SOURCE_ROOT; };
+		4670671A21FE81580091EED5 /* AppBottomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBottomNavigationController.swift; sourceTree = SOURCE_ROOT; };
+		4670671B21FE81580091EED5 /* RemindersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = SOURCE_ROOT; };
+		4670671C21FE81580091EED5 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = SOURCE_ROOT; };
+		4670671E21FE81580091EED5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = SOURCE_ROOT; };
+		4670671F21FE81590091EED5 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = SOURCE_ROOT; };
+		4670672021FE81590091EED5 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = SOURCE_ROOT; };
+		686DB9BB5985A92B2064D798 /* Pods-SmartSolorLighting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSolorLighting.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting.release.xcconfig"; sourceTree = "<group>"; };
+		B3B508CC1FA86B2F71DAF8C8 /* Pods_SmartSolorLighting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartSolorLighting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4730116EEF0D13C62F77DB2 /* Pods-SmartSolorLighting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSolorLighting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467066FF21FE7F830091EED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75C063BF44D1B6FDDD7CD61 /* Pods_SmartSolorLighting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467066F921FE7F830091EED5 = {
+			isa = PBXGroup;
+			children = (
+				4670670421FE7F830091EED5 /* SmartSolorLighting */,
+				4670670321FE7F830091EED5 /* Products */,
+				9BC25AD84C8397FA4BFE710C /* Pods */,
+				C6AD6BC62B3650E988F6C2AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4670670321FE7F830091EED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4670670221FE7F830091EED5 /* SmartSolorLighting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4670670421FE7F830091EED5 /* SmartSolorLighting */ = {
+			isa = PBXGroup;
+			children = (
+				4670670521FE7F830091EED5 /* AppDelegate.swift */,
+				4670671A21FE81580091EED5 /* AppBottomNavigationController.swift */,
+				4670671821FE81580091EED5 /* AppNavigationController.swift */,
+				4670672021FE81590091EED5 /* DemoViewController.swift */,
+				4670671C21FE81580091EED5 /* ListViewController.swift */,
+				4670671921FE81580091EED5 /* Login2ViewController.swift */,
+				4670671721FE81580091EED5 /* LoginViewController.swift */,
+				4670671E21FE81580091EED5 /* MapViewController.swift */,
+				4670671B21FE81580091EED5 /* RemindersViewController.swift */,
+				4670671F21FE81590091EED5 /* SearchViewController.swift */,
+				4670670C21FE7F850091EED5 /* Assets.xcassets */,
+				4670670E21FE7F850091EED5 /* LaunchScreen.storyboard */,
+				4670671121FE7F850091EED5 /* Info.plist */,
+			);
+			path = SmartSolorLighting;
+			sourceTree = "<group>";
+		};
+		9BC25AD84C8397FA4BFE710C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4730116EEF0D13C62F77DB2 /* Pods-SmartSolorLighting.debug.xcconfig */,
+				686DB9BB5985A92B2064D798 /* Pods-SmartSolorLighting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6AD6BC62B3650E988F6C2AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B508CC1FA86B2F71DAF8C8 /* Pods_SmartSolorLighting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4670670121FE7F830091EED5 /* SmartSolorLighting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4670671421FE7F850091EED5 /* Build configuration list for PBXNativeTarget "SmartSolorLighting" */;
+			buildPhases = (
+				0770DA1E73EA356B6AD20BFB /* [CP] Check Pods Manifest.lock */,
+				467066FE21FE7F830091EED5 /* Sources */,
+				467066FF21FE7F830091EED5 /* Frameworks */,
+				4670670021FE7F830091EED5 /* Resources */,
+				5653DDD61115ADAF58901039 /* [CP] Embed Pods Frameworks */,
+				FF202F32299A4B16A920042B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartSolorLighting;
+			productName = SmartSolorLighting;
+			productReference = 4670670221FE7F830091EED5 /* SmartSolorLighting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467066FA21FE7F830091EED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wma;
+				TargetAttributes = {
+					4670670121FE7F830091EED5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 467066FD21FE7F830091EED5 /* Build configuration list for PBXProject "SmartSolorLighting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 467066F921FE7F830091EED5;
+			productRefGroup = 4670670321FE7F830091EED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4670670121FE7F830091EED5 /* SmartSolorLighting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4670670021FE7F830091EED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4670671021FE7F850091EED5 /* LaunchScreen.storyboard in Resources */,
+				4670670D21FE7F850091EED5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0770DA1E73EA356B6AD20BFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartSolorLighting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5653DDD61115ADAF58901039 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF202F32299A4B16A920042B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467066FE21FE7F830091EED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4670672921FE81590091EED5 /* SearchViewController.swift in Sources */,
+				4670672421FE81590091EED5 /* AppBottomNavigationController.swift in Sources */,
+				4670672221FE81590091EED5 /* AppNavigationController.swift in Sources */,
+				4670672521FE81590091EED5 /* RemindersViewController.swift in Sources */,
+				4670672A21FE81590091EED5 /* DemoViewController.swift in Sources */,
+				4670672821FE81590091EED5 /* MapViewController.swift in Sources */,
+				4670672121FE81590091EED5 /* LoginViewController.swift in Sources */,
+				4670670621FE7F830091EED5 /* AppDelegate.swift in Sources */,
+				4670672321FE81590091EED5 /* Login2ViewController.swift in Sources */,
+				4670672621FE81590091EED5 /* ListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4670670E21FE7F850091EED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4670670F21FE7F850091EED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4670671221FE7F850091EED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4670671321FE7F850091EED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4670671521FE7F850091EED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4730116EEF0D13C62F77DB2 /* Pods-SmartSolorLighting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AA7AAVWL9R;
+				INFOPLIST_FILE = SmartSolorLighting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wma.SmartSolorLighting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4670671621FE7F850091EED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686DB9BB5985A92B2064D798 /* Pods-SmartSolorLighting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AA7AAVWL9R;
+				INFOPLIST_FILE = SmartSolorLighting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wma.SmartSolorLighting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467066FD21FE7F830091EED5 /* Build configuration list for PBXProject "SmartSolorLighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4670671221FE7F850091EED5 /* Debug */,
+				4670671321FE7F850091EED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4670671421FE7F850091EED5 /* Build configuration list for PBXNativeTarget "SmartSolorLighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4670671521FE7F850091EED5 /* Debug */,
+				4670671621FE7F850091EED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 467066FA21FE7F830091EED5 /* Project object */;
+}
