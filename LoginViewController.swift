@@ -61,14 +61,14 @@ class LoginViewController: UIViewController {
         button.snp.makeConstraints { (make) in
             make.width.equalTo(100)
             make.height.equalTo(30)
-            //make.center.equalTo(view)
-//            make.bottom.equalTo(view).offset(-350)
-//            make.left.equalTo(view).offset(200)
-            
-            make.left.equalTo(15)
-            make.right.equalTo(-15)
-      
-            self.topConstraint = make.centerY.equalTo(self.view).constraint
+            make.center.equalTo(view)
+            make.bottom.equalTo(view).offset(-350)
+            make.left.equalTo(view).offset(200)
+//
+//            make.left.equalTo(15)
+//            make.right.equalTo(-15)
+//
+//            self.topConstraint = make.centerY.equalTo(self.view).constraint
           
         }
         

@@ -1,4 +1,8 @@
 PODS:
+  - BetterSegmentedControl (1.0.3)
+  - Charts (3.2.1):
+    - Charts/Core (= 3.2.1)
+  - Charts/Core (3.2.1)
   - GoogleMaps (2.7.0):
     - GoogleMaps/Maps (= 2.7.0)
   - GoogleMaps/Base (2.7.0)
@@ -16,6 +20,8 @@ PODS:
   - SnapKit (4.0.1)
 
 DEPENDENCIES:
+  - BetterSegmentedControl (~> 1.0)
+  - Charts (~> 3.0)
   - GoogleMaps
   - GooglePlaces
   - Material (~> 2.0)
@@ -23,6 +29,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - BetterSegmentedControl
+    - Charts
     - GoogleMaps
     - GooglePlaces
     - Material
@@ -30,12 +38,14 @@ SPEC REPOS:
     - SnapKit
 
 SPEC CHECKSUMS:
+  BetterSegmentedControl: 4e3bd0bd517b0f6077c9e17f5663a01cff48e2c5
+  Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
   GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
   GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
   Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
   Motion: 153ba49692997888556c7a95207278a8b1f8be95
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: 2eab80abec7aafef01449f3315bcc2454eea1a28
+PODFILE CHECKSUM: e4959c01b84708e45f4cfbd4a02d8b7fc3be5799
 
 COCOAPODS: 1.5.3

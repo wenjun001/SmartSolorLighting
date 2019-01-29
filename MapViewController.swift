@@ -72,8 +72,8 @@ class MapViewController: UIViewController , GMSMapViewDelegate  {
     }
     
     func prepareNavigationItem() {
-        navigationItem.titleLabel.text = "Map View"
-        navigationItem.detailLabel.text = "View yours smart solar tailer"
+        navigationItem.titleLabel.text = "My Trailer"
+       // navigationItem.detailLabel.text = "View yours smart solar tailer"
         
         navigationItem.leftViews = [menuButton]
         navigationItem.rightViews = [starButton, searchButton]

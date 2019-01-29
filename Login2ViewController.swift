@@ -8,13 +8,14 @@
 
 import UIKit
 import SnapKit
+import Material
 class Login2ViewController: UIViewController , UITextFieldDelegate {
     
     var txtUser: UITextField!
     var txtPwd: UITextField!
     var formView: UIView!
     var horizontalLine: UIView!
-    var confirmButton:UIButton!
+    var confirmButton:RaisedButton!
     var titleLabel: UILabel!
     
     var topConstraint: Constraint?
@@ -105,11 +106,15 @@ class Login2ViewController: UIViewController , UITextFieldDelegate {
         }
         
         
-        self.confirmButton = UIButton()
-        self.confirmButton.setTitle("Login", for: UIControl.State())
-        self.confirmButton.setTitleColor(UIColor.black,
-                                         for: UIControl.State())
-        self.confirmButton.layer.cornerRadius = 5
+//        self.confirmButton = UIButton()
+//        self.confirmButton.setTitle("Login", for: UIControl.State())
+//        self.confirmButton.setTitleColor(UIColor.black,
+//                                         for: UIControl.State())
+//        self.confirmButton.layer.cornerRadius = 5
+        
+         self.confirmButton = RaisedButton(title: "Login ", titleColor: .white)
+         self.confirmButton.pulseColor = .white
+         self.confirmButton.backgroundColor = Color.blue.base
 //        self.confirmButton.backgroundColor = UIColor(colorLiteralRed: 1, green: 1, blue: 1,
 //                                                     alpha: 0.5)
         self.confirmButton.addTarget(self, action: #selector(loginConfrim),

@@ -10,4 +10,6 @@ pod 'Material', '~> 2.0'
 pod 'GoogleMaps'
 pod 'GooglePlaces'
 pod 'SnapKit', '~> 4.0.0'
+pod 'Charts', '~> 3.0'
+pod 'BetterSegmentedControl', '~> 1.0'
 end

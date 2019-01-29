@@ -19,6 +19,7 @@
 		4670672821FE81590091EED5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671E21FE81580091EED5 /* MapViewController.swift */; };
 		4670672921FE81590091EED5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670671F21FE81590091EED5 /* SearchViewController.swift */; };
 		4670672A21FE81590091EED5 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670672021FE81590091EED5 /* DemoViewController.swift */; };
+		4670674B220038010091EED5 /* TrailerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670674A220038010091EED5 /* TrailerDetailViewController.swift */; };
 		A75C063BF44D1B6FDDD7CD61 /* Pods_SmartSolorLighting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B508CC1FA86B2F71DAF8C8 /* Pods_SmartSolorLighting.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		4670671E21FE81580091EED5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = SOURCE_ROOT; };
 		4670671F21FE81590091EED5 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = SOURCE_ROOT; };
 		4670672021FE81590091EED5 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = SOURCE_ROOT; };
+		4670674A220038010091EED5 /* TrailerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerDetailViewController.swift; sourceTree = "<group>"; };
 		686DB9BB5985A92B2064D798 /* Pods-SmartSolorLighting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSolorLighting.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting.release.xcconfig"; sourceTree = "<group>"; };
 		B3B508CC1FA86B2F71DAF8C8 /* Pods_SmartSolorLighting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartSolorLighting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4730116EEF0D13C62F77DB2 /* Pods-SmartSolorLighting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSolorLighting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				4670670C21FE7F850091EED5 /* Assets.xcassets */,
 				4670670E21FE7F850091EED5 /* LaunchScreen.storyboard */,
 				4670671121FE7F850091EED5 /* Info.plist */,
+				4670674A220038010091EED5 /* TrailerDetailViewController.swift */,
 			);
 			path = SmartSolorLighting;
 			sourceTree = "<group>";
@@ -209,6 +212,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
 				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -217,6 +222,8 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -259,6 +266,7 @@
 			files = (
 				4670672921FE81590091EED5 /* SearchViewController.swift in Sources */,
 				4670672421FE81590091EED5 /* AppBottomNavigationController.swift in Sources */,
+				4670674B220038010091EED5 /* TrailerDetailViewController.swift in Sources */,
 				4670672221FE81590091EED5 /* AppNavigationController.swift in Sources */,
 				4670672521FE81590091EED5 /* RemindersViewController.swift in Sources */,
 				4670672A21FE81590091EED5 /* DemoViewController.swift in Sources */,
