@@ -122,11 +122,57 @@ class MapViewController: UIViewController , GMSMapViewDelegate  {
         let camera = GMSCameraPosition.camera(withLatitude: 37.1, longitude: -122, zoom: 6.0)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
 
-        let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2D(latitude: 37.1, longitude: -122)
-        marker.title = "SunnyVale"
-        marker.snippet = "CA"
-        marker.map = mapView
+        let tailAMarker = GMSMarker()
+        tailAMarker.position = CLLocationCoordinate2D(latitude: 37.1, longitude: -122)
+        tailAMarker.title = "Tailer A"
+        tailAMarker.snippet = "healthy"
+        tailAMarker.icon = GMSMarker.markerImage(with:.green)
+        tailAMarker.map = mapView
+
+        let tailBMarker = GMSMarker()
+        tailBMarker.position = CLLocationCoordinate2D(latitude: 37.4, longitude: -122)
+        tailBMarker.title = "Tailer B"
+        tailBMarker.snippet = "healthy"
+        tailBMarker.icon = GMSMarker.markerImage(with:.green)
+        tailBMarker.map = mapView
+
+
+        let tailCMarker = GMSMarker()
+        tailCMarker.position = CLLocationCoordinate2D(latitude: 37.1, longitude: -121)
+        tailCMarker.title = "Tailer C"
+        tailCMarker.snippet = "Good"
+        tailCMarker.icon = GMSMarker.markerImage(with:.green)
+        tailCMarker.map = mapView
+
+
+        let tailDMarker = GMSMarker()
+        tailDMarker.position = CLLocationCoordinate2D(latitude: 37.5, longitude: -122)
+        tailDMarker.title = "Tailer D"
+        tailDMarker.snippet = "Good"
+        tailDMarker.icon = GMSMarker.markerImage(with:.green)
+        tailDMarker.map = mapView
+
+
+
+
+        let tailEMarker = GMSMarker()
+        tailEMarker.position = CLLocationCoordinate2D(latitude: 37.8, longitude: -122)
+        tailEMarker.title = "Tailer E"
+        tailEMarker.snippet = "Charging"
+        tailEMarker.icon = GMSMarker.markerImage(with:.red)
+        tailEMarker.map = mapView
+
+        let tailFMarker = GMSMarker()
+        tailFMarker.position = CLLocationCoordinate2D(latitude: 37.1, longitude: -122)
+        tailFMarker.title = "Tailer F"
+        tailFMarker.snippet = "Unknow"
+        tailFMarker.icon = GMSMarker.markerImage(with:.grey)
+        tailFMarker.map = mapView
+
+
+
+
+
         mapView.delegate = self
         view.addSubview(mapView)
         mapView.snp.makeConstraints { (make) in
