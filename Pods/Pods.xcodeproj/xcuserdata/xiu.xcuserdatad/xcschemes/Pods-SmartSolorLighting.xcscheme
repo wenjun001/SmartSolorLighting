@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B37789E78345944EDBCC40C3FB7F1A0"
+               BlueprintIdentifier = "0E734BC4BDCBA704FA0F544AC3B4D59E"
                BuildableName = "Pods_SmartSolorLighting.framework"
                BlueprintName = "Pods-SmartSolorLighting"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B37789E78345944EDBCC40C3FB7F1A0"
+            BlueprintIdentifier = "0E734BC4BDCBA704FA0F544AC3B4D59E"
             BuildableName = "Pods_SmartSolorLighting.framework"
             BlueprintName = "Pods-SmartSolorLighting"
             ReferencedContainer = "container:Pods.xcodeproj">

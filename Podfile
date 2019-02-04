@@ -12,4 +12,5 @@ pod 'GooglePlaces'
 pod 'SnapKit', '~> 4.0.0'
 pod 'Charts', '~> 3.0'
 pod 'BetterSegmentedControl', '~> 1.0'
+pod 'BMPlayer/CacheSupport', :git => 'https://github.com/BrikerMan/BMPlayer.git'
 end

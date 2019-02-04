@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4605828C2208247C000D0D08 /* BMPlayerCustomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605828B2208247C000D0D08 /* BMPlayerCustomControlView.swift */; };
 		4670670621FE7F830091EED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670670521FE7F830091EED5 /* AppDelegate.swift */; };
 		4670670D21FE7F850091EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4670670C21FE7F850091EED5 /* Assets.xcassets */; };
 		4670671021FE7F850091EED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4670670E21FE7F850091EED5 /* LaunchScreen.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4605828B2208247C000D0D08 /* BMPlayerCustomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMPlayerCustomControlView.swift; sourceTree = "<group>"; };
 		4670670221FE7F830091EED5 /* SmartSolorLighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSolorLighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4670670521FE7F830091EED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4670670C21FE7F850091EED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,7 +34,7 @@
 		4670671721FE81580091EED5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = SOURCE_ROOT; };
 		4670671821FE81580091EED5 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = SOURCE_ROOT; };
 		4670671921FE81580091EED5 /* Login2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login2ViewController.swift; sourceTree = SOURCE_ROOT; };
-		4670671A21FE81580091EED5 /* AppBottomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBottomNavigationController.swift; sourceTree = SOURCE_ROOT; };
+		4670671A21FE81580091EED5 /* AppBottomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBottomNavigationController.swift; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4670671B21FE81580091EED5 /* RemindersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = SOURCE_ROOT; };
 		4670671C21FE81580091EED5 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = SOURCE_ROOT; };
 		4670671E21FE81580091EED5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -91,6 +93,7 @@
 				4670670E21FE7F850091EED5 /* LaunchScreen.storyboard */,
 				4670671121FE7F850091EED5 /* Info.plist */,
 				4670674A220038010091EED5 /* TrailerDetailViewController.swift */,
+				4605828B2208247C000D0D08 /* BMPlayerCustomControlView.swift */,
 			);
 			path = SmartSolorLighting;
 			sourceTree = "<group>";
@@ -212,21 +215,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SmartSolorLighting/Pods-SmartSolorLighting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
 				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/VIMediaCache/VIMediaCache.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VIMediaCache.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -265,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4670672921FE81590091EED5 /* SearchViewController.swift in Sources */,
+				4605828C2208247C000D0D08 /* BMPlayerCustomControlView.swift in Sources */,
 				4670672421FE81590091EED5 /* AppBottomNavigationController.swift in Sources */,
 				4670674B220038010091EED5 /* TrailerDetailViewController.swift in Sources */,
 				4670672221FE81590091EED5 /* AppNavigationController.swift in Sources */,

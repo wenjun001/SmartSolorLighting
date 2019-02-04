@@ -1,5 +1,11 @@
 PODS:
   - BetterSegmentedControl (1.0.3)
+  - BMPlayer/CacheSupport (1.0.2):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.4.0)
+    - SnapKit (~> 4.0.1)
+    - VIMediaCache
+  - BMPlayer/Core (1.0.2)
   - Charts (3.2.1):
     - Charts/Core (= 3.2.1)
   - Charts/Core (3.2.1)
@@ -17,10 +23,15 @@ PODS:
   - Motion (1.4.3):
     - Motion/Core (= 1.4.3)
   - Motion/Core (1.4.3)
+  - NVActivityIndicatorView (4.4.1):
+    - NVActivityIndicatorView/Presenter (= 4.4.1)
+  - NVActivityIndicatorView/Presenter (4.4.1)
   - SnapKit (4.0.1)
+  - VIMediaCache (0.4)
 
 DEPENDENCIES:
   - BetterSegmentedControl (~> 1.0)
+  - BMPlayer/CacheSupport (from `https://github.com/BrikerMan/BMPlayer.git`)
   - Charts (~> 3.0)
   - GoogleMaps
   - GooglePlaces
@@ -35,17 +46,31 @@ SPEC REPOS:
     - GooglePlaces
     - Material
     - Motion
+    - NVActivityIndicatorView
     - SnapKit
+    - VIMediaCache
+
+EXTERNAL SOURCES:
+  BMPlayer:
+    :git: https://github.com/BrikerMan/BMPlayer.git
+
+CHECKOUT OPTIONS:
+  BMPlayer:
+    :commit: e94f18d60961fbc1d055843e33659cd664e14fd5
+    :git: https://github.com/BrikerMan/BMPlayer.git
 
 SPEC CHECKSUMS:
   BetterSegmentedControl: 4e3bd0bd517b0f6077c9e17f5663a01cff48e2c5
+  BMPlayer: e4d9347faabbcb92800213515589d844d2dadfa0
   Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
   GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
   GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
   Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
   Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  NVActivityIndicatorView: f0a6b0ed2973d9544da268f4eb76696f0a9577b0
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  VIMediaCache: aa650f82cb114c68a343beb4e67416cf5eb2f3a2
 
-PODFILE CHECKSUM: e4959c01b84708e45f4cfbd4a02d8b7fc3be5799
+PODFILE CHECKSUM: 0dbe078b1bbb9b18236bbf002259f05af0aac9ff
 
 COCOAPODS: 1.5.3

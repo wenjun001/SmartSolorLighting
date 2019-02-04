@@ -36,11 +36,16 @@ class AppBottomNavigationController: BottomNavigationController {
     var needLogin = true
     
     open override func prepare() {
+        
+        
         super.prepare()
         isMotionEnabled = true
         motionTabBarTransitionType = .autoReverse(presenting: .pull(direction: .left))
         
         prepareTabBar()
+        
+    
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -48,6 +53,7 @@ class AppBottomNavigationController: BottomNavigationController {
         // modal the login view controller here if necessary
         if (self.needLogin) {
             let loginVC = Login2ViewController()
+            // let loginVC = LoginViewController()
             self.present(loginVC, animated: true) {
                 self.needLogin = false
             }

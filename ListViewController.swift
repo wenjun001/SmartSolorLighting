@@ -242,7 +242,7 @@ struct Info {
 }
 extension ListViewController {
     fileprivate func prepareTabBarItem() {
-        tabBarItem.image = Icon.cm.videocam?.tint(with: Color.blueGrey.base)
-        tabBarItem.selectedImage = Icon.cm.videocam?.tint(with: Color.blue.base)
+        tabBarItem.image = Icon.cm.menu?.tint(with: Color.blueGrey.base)
+        tabBarItem.selectedImage = Icon.cm.menu?.tint(with: Color.blue.base)
     }
 }

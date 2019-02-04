@@ -102,7 +102,7 @@ extension LoginViewController {
         emailField.placeholder = "Email"
         emailField.detail = "your sign email"
         emailField.isClearIconButtonEnabled = true
-        emailField.delegate = self
+        //emailField.delegate = self
         emailField.isPlaceholderUppercasedWhenEditing = true
         emailField.placeholderAnimation = .hidden
         
@@ -163,12 +163,12 @@ extension LoginViewController: TextFieldDelegate {
     public func textFieldDidEndEditing(_ textField: UITextField) {
         (textField as? ErrorTextField)?.isErrorRevealed = false
     }
-    
+
     public func textFieldShouldClear(_ textField: UITextField) -> Bool {
         (textField as? ErrorTextField)?.isErrorRevealed = false
         return true
     }
-    
+
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         (textField as? ErrorTextField)?.isErrorRevealed = true
         return true

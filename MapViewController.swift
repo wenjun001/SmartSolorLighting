@@ -166,7 +166,7 @@ class MapViewController: UIViewController , GMSMapViewDelegate  {
         tailFMarker.position = CLLocationCoordinate2D(latitude: 37.1, longitude: -122)
         tailFMarker.title = "Tailer F"
         tailFMarker.snippet = "Unknow"
-        tailFMarker.icon = GMSMarker.markerImage(with:.grey)
+        tailFMarker.icon = GMSMarker.markerImage(with:.gray)
         tailFMarker.map = mapView
 
 

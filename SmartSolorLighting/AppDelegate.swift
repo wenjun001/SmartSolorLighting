@@ -18,8 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let vc = ListViewController()
         let nav2 = AppNavigationController(rootViewController:vc)
         
+        let rc = RemindersViewController()
+        let nav3 = AppNavigationController(rootViewController:rc)
+        
         // go to main page
-        let appBottomNavigationController = AppBottomNavigationController(viewControllers: [nav,nav2])
+        let appBottomNavigationController = AppBottomNavigationController(viewControllers: [nav,nav2,nav3])
         window!.rootViewController = appBottomNavigationController
 //
 //
