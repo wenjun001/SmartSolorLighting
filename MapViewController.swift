@@ -29,6 +29,8 @@ struct ButtonLayout {
 
 
 class MapViewController: UIViewController , GMSMapViewDelegate  {
+    var needLogin = true
+    
     convenience init() {
         self.init(nibName: nil, bundle: nil)
         prepareTabBarItem()
@@ -54,6 +56,17 @@ class MapViewController: UIViewController , GMSMapViewDelegate  {
 //        // do something
 //        return true
 //    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if self.needLogin {
+            let loginVC = Login2ViewController()
+            self.present(loginVC, animated: false) {
+                self.needLogin = false
+            }
+        }
+    }
     
     func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
         print(marker.title!)
